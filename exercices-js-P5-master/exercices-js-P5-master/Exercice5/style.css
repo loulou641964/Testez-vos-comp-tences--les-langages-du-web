@@ -1,0 +1,72 @@
+/* Styles pour les sections */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Aligner les liens horizontalement avec Flexbox */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliser Flexbox */
+    justify-content: center; /* Centrer les éléments horizontalement */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Pas de marge après le dernier élément */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 50px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease; /* Pour une transition douce */
+}
+
+/* Arrière-plan par défaut des sections */
+#accueil {
+    background-color: #f2f2f2;
+}
+
+#a-propos {
+    background-color: #e6e6e6;
+}
+
+#services {
+    background-color: #cccccc;
+}
+
+#contact {
+    background-color: #bfbfbf;
+}
+
+/* Styles à appliquer lorsque la section est ciblée */
+#accueil:target {
+    background-color: #FFCCCC; /* Rouge clair */
+}
+
+#a-propos:target {
+    background-color: #CCFFCC; /* Vert clair */
+}
+
+#services:target {
+    background-color: #CCCCFF; /* Bleu clair */
+}
+
+#contact:target {
+    background-color: #FFFFCC; /* Jaune clair */
+}

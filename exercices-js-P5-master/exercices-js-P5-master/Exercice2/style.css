@@ -1,0 +1,51 @@
+/* Style pour l'image */
+img {
+    width: 300px; /* Ajuste la largeur de l'image */
+    height: auto; /* Maintient le ratio de l'image */
+    border: 5px solid #333; /* Bordure autour de l'image */
+    border-radius: 15px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre autour de l'image */
+    margin-bottom: 20px; /* Espace sous l'image */
+}
+
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Style pour les titres */
+h1 {
+    color: #ff69b4; /* Rose pour rappeler le côté psychédélique */
+}
+
+h2 {
+    color: #333;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Style pour la liste */
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* Lien */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
