@@ -1,4 +1,5 @@
 /* Couleur d'arrière-plan pour chaque section */
+*{box-sizing: border-box;}
 header {
     background-color: #FFCC99;
     text-align: center;
@@ -17,12 +18,13 @@ aside {
     background-color: #B3D9FF;
     flex: 1;
     padding: 20px;
-    border: 1px solid #CCC;
+    border: solid 1px  #CCC;
+    border-width: 1px;
 }
 
 section {
     flex: 3;
-    padding: 20px;
+   margin: 20px;
 }
 
 footer {
